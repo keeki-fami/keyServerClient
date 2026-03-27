@@ -5,7 +5,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var status: Bool? = nil
     @State private var time: Date? = nil
-    let url = URL(string: "http://10.32.1.16:8080/nowStatus")!
+    let url = URL(string: "")!
     @State private var data: [Bool:Date] = [:]
     @State private var backgroundColor: Color = .gray
     
